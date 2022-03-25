@@ -40,3 +40,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus7T_EEA-user 10 QKQ1.190716.003 1909250940 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
